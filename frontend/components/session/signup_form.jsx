@@ -8,12 +8,20 @@ class SignupForm extends React.Component {
       username: '',
       password: ''
     };
+    this.handleClick = this.handleClick.bind(this);
   }
 
   update(field) {
     return e => this.setState({
       [field]: e.currentTarget.value
     });
+  }
+
+  handleClick(e) {
+    e.preventDefault();
+    const user = this.state;
+    this.props.clearErrors();
+    this.props.signup(user);
   }
 
   renderErrors() {
