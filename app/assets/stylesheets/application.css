@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+*:focus {
+  outline:none
+}
+
+textarea {
+  resize: none;
+}
+
+.btn {
+  cursor: pointer;
+}
