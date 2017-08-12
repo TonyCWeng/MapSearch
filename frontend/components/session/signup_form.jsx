@@ -28,7 +28,7 @@ class SignupForm extends React.Component {
 
   render() {
     return (
-    <div>
+    <div className="session-container">
 
         <div className="session-form">
           <div className="session-title">Sign Up</div>
@@ -55,21 +55,24 @@ class SignupForm extends React.Component {
               className="session-input"
             />
           </div>
+          <div className="form-item">
+          <div className='buttons'>
+            <button className="btn form-button" onClick={this.handleClose}>
+              Sign In
+            </button>
+
+            <button className="btn submit-button" onClick={this.handleClick}>
+              Submit
+            </button>
+          </div>
+          </div>
         </div>
 
-        <div className="submission">
-        <div className='button'>
-          <button className="btn" onClick={this.handleClose}>
-            Sign In
-          </button>
 
-          <button className="btn" onClick={this.handleClick}>
-            Submit
-          </button>
-        </div>
-        </div>
 
       </div>
     );
   }
 }
+
+export default SignupForm;

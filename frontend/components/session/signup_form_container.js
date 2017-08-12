@@ -4,7 +4,6 @@ import SignupForm from './signup_form';
 import { clearErrors } from '../../actions/error_actions';
 
 const mapStateToProps = ({ session, errors }) => ({
-  currentUser: session.currentUser,
   errors
 });
 
