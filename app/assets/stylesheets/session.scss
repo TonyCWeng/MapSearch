@@ -47,7 +47,7 @@
 
 .session-title {
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: 30px;
 }
 
@@ -58,7 +58,6 @@
    padding: 5px 5px;
    font-weight: 400;
    width: 240px;
-   height: 36px;
    font-size: 13px;
 }
 
@@ -69,7 +68,19 @@
   border-radius: 3px;
   padding: 5px 5px;
   font-weight: 400;
-  width: 60px;
+  left: 25px;
+  width: 240px;
+  font-size: 13px;
+}
+
+.switch-button {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #84e184;
+  border-radius: 3px;
+  padding: 5px 5px;
+  font-weight: 400;
+  width: 240px;
   height: 32px;
   left: 25px;
   font-size: 13px;

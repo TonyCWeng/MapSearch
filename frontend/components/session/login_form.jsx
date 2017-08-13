@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 
-class SignupForm extends React.Component {
+class LoginForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -23,7 +23,7 @@ class SignupForm extends React.Component {
     e.preventDefault();
     const user = this.state;
     this.props.clearErrors();
-    this.props.signup(user);
+    this.props.login(user);
   }
 
   handleDemo(e) {
@@ -35,7 +35,7 @@ class SignupForm extends React.Component {
 
   handleSwitch(e) {
     e.preventDefault();
-    this.props.history.push('/login');
+    this.props.history.push('/');
   }
 
   renderErrors() {
@@ -53,7 +53,7 @@ class SignupForm extends React.Component {
     <div className="session-container">
 
         <div className="session-form">
-          <div className="session-title">Sign Up</div>
+          <div className="session-title">Log In</div>
           {this.renderErrors()}
           <div className="form-item">
 
@@ -80,23 +80,23 @@ class SignupForm extends React.Component {
           <div className="form-item">
           <div className='buttons'>
             <button className="btn form-button" onClick={this.handleSwitch}>
-              Have an Account?
+              Don't Have an Account?
             </button>
 
             <button className="btn submit-button" onClick={this.handleSubmit}>
               Submit
             </button>
 
-
+            <button className="btn switch-button" onClick={this.handleDemo}>
+              Guest
+            </button>
           </div>
           </div>
         </div>
-
-
 
       </div>
     );
   }
 }
 
-export default withRouter(SignupForm);
+export default withRouter(LoginForm);
