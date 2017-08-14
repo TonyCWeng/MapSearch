@@ -28,7 +28,7 @@ class Header extends React.Component {
 
           <div className='header-right'>
             <button
-              className="btn header-button"
+              className="header-button"
               onClick={ this.handleLogout }
               >
               Logout

@@ -53,7 +53,7 @@ class LoginForm extends React.Component {
     <div className="session-container">
 
         <div className="session-form">
-          <div className="session-title">Log In</div>
+          <div className="session-title">Sign In</div>
           {this.renderErrors()}
           <div className="form-item">
 

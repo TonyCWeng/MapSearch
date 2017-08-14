@@ -10,7 +10,7 @@ Built on React/Redux and Ruby on Rails. Uses a PostgreSQL database for users.
 
 ## Features
 
-- Utilizes Google Map's built-in SearchBox for autocompletion.
+- Utilizes Google Map's built-in autocomplete library for search bar.
 - Markers represent search results.
 - User Authentication with Rails and BCrypt.
 - Guest login option available.
