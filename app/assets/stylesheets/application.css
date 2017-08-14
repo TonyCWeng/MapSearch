@@ -39,7 +39,6 @@ textarea {
   margin: 5px;
 }
 
-/* Place Holder CSS */
 ::-webkit-input-placeholder {
   color: #000;
   opacity: 0.5;

@@ -4,6 +4,7 @@ import SignupFormContainer from './session/signup_form_container';
 import LoginFormContainer from './session/login_form_container';
 import { Switch } from 'react-router';
 import HeaderContainer from './header/header_container';
+import Map from './map/map';
 
 const App = () => (
   <div>
@@ -12,6 +13,7 @@ const App = () => (
       <AuthRoute exact path="/" component={SignupFormContainer} />
       <AuthRoute exact path="/login" component={LoginFormContainer} />
     </Switch>
+    <ProtectedRoute exact path="/map" component={Map} />
 
   </div>
 );
