@@ -89,7 +89,7 @@ class LoginForm extends React.Component {
             </button>
 
             <button className="btn form-button" onClick={this.handleSwitch}>
-              Don't Have an Account?
+              Sign Up
             </button>
           </div>
           </div>
