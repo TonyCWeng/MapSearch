@@ -79,16 +79,17 @@ class LoginForm extends React.Component {
           </div>
           <div className="form-item">
           <div className='buttons'>
-            <button className="btn form-button" onClick={this.handleSwitch}>
-              Don't Have an Account?
-            </button>
 
             <button className="btn submit-button" onClick={this.handleSubmit}>
-              Submit
+              Log In
             </button>
 
             <button className="btn switch-button" onClick={this.handleDemo}>
               Guest
+            </button>
+
+            <button className="btn form-button" onClick={this.handleSwitch}>
+              Don't Have an Account?
             </button>
           </div>
           </div>
