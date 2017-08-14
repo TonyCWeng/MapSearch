@@ -11,13 +11,10 @@ Built on React/Redux and Ruby on Rails. Uses a PostgreSQL database for users.
 ## Features
 
 - Utilizes Google Map's built-in SearchBox.
+- Markers represent search results.
 - User Authentication with Rails and BCrypt.
-- Guest login option available on Login menu.
-
-## User Validations
-
-- Usernames must be unique, password must be at least 8 characters long.
+- Guest login option available.
 
 ## Location Details
 
-- Location details supplied by Google Maps API.
+- Known location details supplied by Google Maps API.
