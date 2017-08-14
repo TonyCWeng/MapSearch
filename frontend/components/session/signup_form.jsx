@@ -88,7 +88,7 @@ class SignupForm extends React.Component {
             </button>
 
             <button className="btn form-button" onClick={this.handleSwitch}>
-              Already have an account?
+              Already Have an Account?
             </button>
 
           </div>

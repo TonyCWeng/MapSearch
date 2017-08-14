@@ -132,7 +132,7 @@ textarea {
   border-radius: 4px;
   cursor: pointer;
 }
-.session-form button:hover, .session-form button:focus
+.session-form button:hover
 {
   outline: none;
   background-color: #444;
